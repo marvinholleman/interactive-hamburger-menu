@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: normal;
+	src: url("../assets/fonts/Poppins-Medium.ttf") format("ttf");
+}
+
+:root {
+	--primary-font: "Poppins";
+	--primary-color: #111f4d;
+	--text-color: #fff;
+}
+
+body {
+	margin: 0;
+	font-family: var(--primary-font);
+}

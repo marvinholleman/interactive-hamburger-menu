@@ -1,0 +1,14 @@
+.footer {
+	display: flex;
+	height: 60px;
+	background-color: var(--primary-color);
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.copywright {
+	margin: 20px;
+	font-size: 1rem;
+	color: var(--text-color);
+}

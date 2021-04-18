@@ -1,0 +1,52 @@
+@import "../../styles/theme.css";
+
+.menuWrapper {
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	background-color: transparent;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 100%;
+	transition: ease 1s;
+}
+
+.nav.visible {
+	opacity: 1;
+}
+
+.nav.invisible {
+	opacity: 0;
+}
+
+.navItem {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: var(--text-color);
+	padding: 0 20px 0 20px;
+}
+
+.navItem.invisible {
+	display: none;
+}
+
+.logo {
+	position: absolute;
+	font-size: 25px;
+	top: 35px;
+	left: 25px;
+	transition: ease 0.4s;
+}
+
+.logo.dark {
+	color: var(--primary-color);
+}
+
+.logo.light {
+	color: var(--text-color);
+}
