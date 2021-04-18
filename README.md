@@ -1,4 +1,4 @@
-Kaliber technical test
+Interactive hamburger menu
 Built with Create React app and CSS modules.
 
 Steps to reproduce:
